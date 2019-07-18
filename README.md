@@ -14,6 +14,25 @@ What things you need to install the software and how to install them
 Give examples
 ```
 
+
+### Screenshots
+
+<details>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQG1pGxH3cksu2IiJmhPBg9CO9tBeCtiH-1L1yD4xm0op58LfS" />
+<summary>
+Layout 1 : Blog and Portfolio
+</summary>
+</details>
+
+<details>
+<img src="http://faces.unah.edu.hn/isya/images/joomlart/supported-layout/magazine.png" />
+<summary>
+Layout 2 : Photography and Ecommerce
+</summary>
+</details>
+
+
+
 ### Installing
 
 A step by step series of examples that tell you how to get a development env running
