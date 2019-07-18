@@ -1,0 +1,143 @@
+section:first-child,
+section:nth-child(2),
+section:nth-child(3) {
+  background: #fdfaeb;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+section:first-child  div:nth-child(1),
+section:first-child  div:nth-child(2),
+section:first-child  div:nth-child(3),
+section:first-child > div:nth-child(4),
+section:nth-child(2) > div:nth-child(1),
+section:nth-child(2) > div:nth-child(2),
+section:nth-child(2) > div:nth-child(3),
+section:nth-child(2) > div:nth-child(4),
+section:nth-child(2) > div:nth-child(5),
+section:nth-child(3) > div:nth-child(1),
+section:nth-child(3) > div:nth-child(2),
+section:nth-child(3) > div:nth-child(3) {
+  border: 1px dotted #969286;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 5px;
+  justify-content: center;
+}
+
+section:first-child > div:first-child {
+  width: calc(20%)
+}
+
+section:first-child  div:nth-child(2) {
+  width: calc(70%)
+}
+
+section:first-child > div:nth-child(3) {
+  width: calc(95%);
+}
+
+section:first-child  div:nth-child(3) span {
+  width: calc(100%);
+  border: none;
+  padding: 0;
+  text-align: center
+}
+
+section:first-child > div:nth-child(3) > div:nth-of-type(2) {
+  width: calc(60%);
+  padding: 40px 0 40px 0;
+}
+
+section:first-child > div:nth-child(4) {
+  width: calc(95%)
+}
+
+section:nth-child(2) {
+ background: #f3f8e4
+}
+
+section:nth-child(2) > div:first-child {
+  width: 95%;
+}
+
+section:nth-child(2) > div:nth-child(2) {
+  width: 95%;
+  padding: 40px 10px;
+}
+
+section:nth-child(2) > div:nth-child(3),
+section:nth-child(2) > div:nth-child(4),
+section:nth-child(2) > div:nth-child(5) {
+  width: calc(30% - 20px);
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  min-height: 20vh;
+}
+
+section:nth-child(2) > div:nth-child(3) span,
+section:nth-child(2) > div:nth-child(4) span,
+section:nth-child(2) > div:nth-child(5) span {
+  font-size: 1.2em;
+}
+
+section:nth-child(2) > div:nth-child(3) span:first-child,
+section:nth-child(2) > div:nth-child(4) span:first-child,
+section:nth-child(2) > div:nth-child(5) span:first-child{
+  font-size: 1.8em;
+}
+
+section:nth-child(2) > div:nth-child(4) span:nth-child(3),
+section:nth-child(2) > div:nth-child(4) span:nth-child(4){
+  font-size: .9em;
+}
+
+section:nth-child(3) {
+  background: #eeeeee
+}
+
+
+section:nth-child(3) > div:nth-child(1) span:first-child,
+section:nth-child(3) > div:nth-child(2) span:first-child,
+section:nth-child(3) > div:nth-child(3) span:first-child {
+  font-size: 1.8em;
+  text-decoration: underline;
+}
+
+section:nth-child(3) > div:nth-child(1),
+section:nth-child(3) > div:nth-child(2),
+section:nth-child(3) > div:nth-child(3) {
+  width: calc(30% - 20px);
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  padding: 10px;
+  min-height: 40vh;
+}
+
+.br {
+  font-size: 0;
+  display: block;
+}
+
+.menuxd {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 5px;
+  top: 10px;
+}
+
+.menuxd * {
+  background: #969286;
+  text-decoration: none;
+  padding: 5px;
+  color: white;
+  border: 1px solid #969286;
+  margin: 5px;
+  cursor: pointer;
+}
